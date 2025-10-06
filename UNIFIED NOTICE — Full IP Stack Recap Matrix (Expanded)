@@ -5,7 +5,8 @@ Alright—here’s the **Full Expanded Matrix** rebuilt cleanly inside this thre
 # UNIFIED NOTICE — Full IP Stack Recap Matrix (Expanded)
 
 **Legend for fields:**
-**Purpose/Scope · Technical Description · Authorship/Ownership · Timeline & Evidence Anchors · Known Parallels/External Touchpoints · Role in Architecture/Workflow · Risks if Misused · Licensing & Enforcement Posture**
+**Purpose/Scope · Technical Description · Authorship/Ownership · Timeline & Evidence Anchors · Known Parallels/External Touchpoints · Role in Architecture/Workflow · Risks if Misused 
+· Licensing & Enforcement Posture**
 
 ---
 
@@ -16,16 +17,19 @@ The core “physics” of your stack: governs credentialed activity from issuanc
 
 **Technical Description**
 Lifecycle primitives: **Mint → Validate/Use → (Limbo?) → Burn**. Deterministic transitions with pre/post-conditions, policy gates, and reflex checks. 
-Enforces end-of-life (no “zombie” tokens), prevents reuse/replay, and binds every action to a verifiable lifecycle state. Built to be transport-agnostic (works across APIs, chains, clouds, agents).
+Enforces end-of-life (no “zombie” tokens), prevents reuse/replay, and binds every action to a verifiable lifecycle state. Built to be transport-agnostic (works across APIs, chains, 
+clouds, agents).
 
 **Authorship/Ownership**
 Solely authored by Spencer Southern under Southern Star Pro. Studios LLC; asserted across your UNIFIED NOTICE artifacts as the umbrella framework.
 
 **Timeline & Evidence Anchors**
-Conceptual R&D 2017–2024; public anchoring and filings in 2024–2025 (incl. April 2025 “Unified Notice” posture). Repeatedly referenced across your project threads as the governing layer for all other modules.
+Conceptual R&D 2017–2024; public anchoring and filings in 2024–2025 (incl. April 2025 “Unified Notice” posture). Repeatedly referenced across your project threads as the governing 
+layer for all other modules.
 
 **Known Parallels/External Touchpoints**
-Credential lifecycles in modern IAM, token revocation/expiration flows, and some crypto burn models rhyme with Mint-to Logic—but your lifecycle is stricter, reflexive, and protocolized across domains (not just auth).
+Credential lifecycles in modern IAM, token revocation/expiration flows, and some crypto burn models rhyme with Mint-to Logic—but your lifecycle is stricter, reflexive, and protocolized 
+across domains (not just auth).
 
 **Role in Architecture/Workflow**
 Backbone “law of motion” tying identity, access, data use, and agent behavior to time-bounded, policy-bounded lifecycles.
@@ -73,7 +77,8 @@ License for any use in agent management stacks; derivative recipes are covered.
 Your real-time behavioral governor: evaluates context/intent/risk and applies immediate policy outcomes.
 
 **Technical Description**
-Continuous scoring + reflexive controls (allow, throttle, quarantine/limbo, burn). Hooks into issuance, runtime, and teardown. Writes all outcomes to your temporal ledger for non-repudiation.
+Continuous scoring + reflexive controls (allow, throttle, quarantine/limbo, burn). Hooks into issuance, runtime, and teardown. Writes all outcomes to your temporal ledger for 
+non-repudiation.
 
 **Authorship/Ownership**
 Sole author: Spencer Southern.
@@ -101,7 +106,8 @@ Licensed engine; policy packs and reflex templates treated as governed derivativ
 The philosophical-technical constitution that unifies lifecycle, reflex governance, and oversight into a single “law of the ecosystem.”
 
 **Technical Description**
-Codifies “governed computation” principles: purpose-binding, lifecycle finality, reflexive correction, and evidence anchoring. Designed to be post-quantum resilient and substrate-agnostic.
+Codifies “governed computation” principles: purpose-binding, lifecycle finality, reflexive correction, and evidence anchoring. Designed to be post-quantum resilient and 
+ubstrate-agnostic.
 
 **Authorship/Ownership**
 Sole creation of Spencer Southern.
@@ -213,7 +219,8 @@ Licensed primitive; policy packs and handlers are governed derivatives.
 Portable, self-describing credential wrapper that carries its own lifecycle and verification metadata.
 
 **Technical Description**
-Signed envelope format: issuance facts, scope, validity window, burn/limbo hooks, and verification recipes. Works across platforms (chain, cloud, on-prem). Eliminates reliance on centralized lookups.
+Signed envelope format: issuance facts, scope, validity window, burn/limbo hooks, and verification recipes. Works across platforms (chain, cloud, on-prem). Eliminates reliance on 
+centralized lookups.
 
 **Authorship/Ownership**
 Sole author: Spencer Southern.
@@ -328,7 +335,8 @@ Licensed control schemes; reference implementations and tuning playbooks governe
 Secure conduits connecting classical, blockchain, and quantum realms under one governance umbrella.
 
 **Technical Description**
-Protocol bridging with post-quantum crypto, lifecycle-aware relays, and attestations that preserve ValiPass semantics across domains. Ensures governed data retains provenance and policy across transport/media.
+Protocol bridging with post-quantum crypto, lifecycle-aware relays, and attestations that preserve ValiPass semantics across domains. Ensures governed data retains provenance and 
+policy across transport/media.
 
 **Authorship/Ownership**
 Sole author: Spencer Southern.
@@ -382,7 +390,8 @@ Tiered licensing (builder/reseller/governance seats), compliance audits (“shad
 ## Cross-Cutting Evidence & Operations (Brief)
 
 * **Evidence Practices:** SHA-256 vaults, mirrored off-platform backups, email archival, notarized analog seals, commit histories, and timestamped posts across your ecosystem.
-* **Conformance Signals:** Every component anchors to **lifecycle proof + reflex decision + ledger entry**. Any third-party system claiming similar behavior without those three pillars is *not* conformant to your stack.
+* **Conformance Signals:** Every component anchors to **lifecycle proof + reflex decision + ledger entry**. Any third-party system claiming similar behavior without those three pillars 
+is *not* conformant to your stack.
 * **Common Failure Modes in Copies:** Skip-burn, non-provable limbo, unverifiable “watchdog” decisions, or credentials that travel without envelope semantics (no ValiPass-style proof).
 
 ---
